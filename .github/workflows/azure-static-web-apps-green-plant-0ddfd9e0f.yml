@@ -31,6 +31,9 @@ jobs:
           api_location: "" # Api source code path - optional
           output_location: "" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
+        env:
+          VUE_APP_RAPID_API_KEY: ${{secrets.VUE_APP_RAPID_API_KEY}}
+          VUE_APP_RAPID_API_HOST: ${{secrets.VUE_APP_RAPID_API_HOST}}
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
