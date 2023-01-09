@@ -2,7 +2,7 @@
 <h1>TextNerd.io</h1>
   <AllCapsForm />
 
-  <small>Copyright 2022 <a href="https://www.infrasyst.com">InfraSyst Technology Solutions LLC</a></small><br>
+  <small>Copyright 2023 <a href="https://www.infrasyst.com">InfraSyst Technology Solutions LLC</a></small><br>
   <small>All rights reserved.</small>
 </template>
 
