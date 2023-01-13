@@ -1,5 +1,8 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import './registerServiceWorker'
+import { createApp } from "vue";
+import App from "./App.vue";
+import "./registerServiceWorker";
 
-createApp(App).mount('#app')
+import "bulma/css/bulma.css";
+
+
+createApp(App).mount("#app");

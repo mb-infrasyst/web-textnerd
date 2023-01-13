@@ -1,24 +1,23 @@
 <template>
+  <!-- prettier-ignore -->
   <div class="mainform">
     <form>
-      <label>Enter text:</label><br />
-      <textarea type="text" rows="10" autofocus v-model="inputtext" />
+      <label class="custom-label">Enter text:</label><br />
+      <textarea class="textarea is-link" type="text" rows="10" autofocus v-model="inputtext" />
       <br />
     </form>
     <center>
-      <button class="actionbuttom" @click="clear()">Clear</button>
-      <button class="actionbuttom" @click="uppercase()">Uppercase</button>
-      <button class="actionbuttom" @click="lowercase()">Lowercase</button>
-      <button class="actionbuttom" @click="capcase()">CapCase</button>
-      <button class="actionbuttom" @click="alternatecase()">
-        AlternateCase
-      </button>
-      <button class="actionbuttom" @click="invertedcase()">InvertedCase</button>
-      <button class="actionbuttom" @click="sentencecase()">SentenceCase</button>
+      <button class="button is-info is-light is-outlined custom-actionbutton" @click="clear()">Clear</button>
+      <button class="button is-info is-light is-outlined custom-actionbutton" @click="uppercase()">Uppercase</button>
+      <button class="button is-info is-light is-outlined custom-actionbutton" @click="lowercase()">Lowercase</button>
+      <button class="button is-info is-light is-outlined custom-actionbutton" @click="capcase()">CapCase</button>
+      <button class="button is-info is-light is-outlined custom-actionbutton" @click="alternatecase()">AlternateCase</button>
+      <button class="button is-info is-light is-outlined custom-actionbutton" @click="invertedcase()">InvertedCase</button>
+      <button class="button is-info is-light is-outlined custom-actionbutton" @click="sentencecase()">SentenceCase</button>
     </center>
   </div>
 
-  <hr />
+
 </template>
 
 <script>
@@ -30,7 +29,7 @@ const headers_global = new Headers({
 export default {
   data() {
     return {
-      inputtext: "the force is good. this is the way.",
+      inputtext: "example text. the force is good. this is the way.",
     };
   },
   methods: {
@@ -51,7 +50,7 @@ export default {
         requestOptions
       );
       const data = await response.json();
-      console.log(data)
+      console.log(data);
       this.inputtext = data.uppercaseText;
     },
 
@@ -67,7 +66,7 @@ export default {
         requestOptions
       );
       const data = await response.json();
-      console.log(data)
+      console.log(data);
       this.inputtext = data.lowercaseText;
     },
 
@@ -83,7 +82,7 @@ export default {
         requestOptions
       );
       const data = await response.json();
-      console.log(data)
+      console.log(data);
       this.inputtext = data.capcaseText;
     },
 
@@ -99,7 +98,7 @@ export default {
         requestOptions
       );
       const data = await response.json();
-      console.log(data)
+      console.log(data);
       this.inputtext = data.alternatecaseText;
     },
 
@@ -115,7 +114,7 @@ export default {
         requestOptions
       );
       const data = await response.json();
-      console.log(data)
+      console.log(data);
       this.inputtext = data.invertedcaseText;
     },
 
@@ -131,7 +130,7 @@ export default {
         requestOptions
       );
       const data = await response.json();
-      console.log(data)
+      console.log(data);
       this.inputtext = data.sentencecaseText;
     },
   },
@@ -147,14 +146,16 @@ export default {
   padding: 40px;
   border-radius: 10px;
 }
-label {
-  /* color: #aaa; */
+.custom-label {
+  /* color: #aaa;
   display: inline-block;
   margin: 25px 0 15px;
   font-size: 1em;
   /* text-transform: uppercase; */
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
   font-weight: bold;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 16px;
 }
 textarea {
   display: block;
@@ -175,7 +176,7 @@ textarea {
   border-radius: 10px;
   font-weight: normal;
 }
-.actionbuttom {
+.custom-actionbutton {
   font-size: 1.2em;
   margin: 5px;
 }
