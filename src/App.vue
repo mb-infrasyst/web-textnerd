@@ -2,7 +2,7 @@
 <template>
   <nav class="navbar is-link" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="http://10.0.0.65:8080/">
+      <a class="navbar-item" href="https://www.textnerd.io">
         <img
           src="../public/img/textnerd-images/textnerd-logo-512x512-v1.png"
           alt="Convert text case."
@@ -12,18 +12,18 @@
     <!-- prettier-ignore -->
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item" href="http://10.0.0.65:8080/"> TextNerd.io </a>
+        <a class="navbar-item" href="https://www.textnerd.io"> textnerd.io </a>
         <a class="navbar-item" href="https://rapidapi.com/melbatista76/api/textnerd-io" target="_blank"> API </a>
       </div>
 
       <div class="navbar-end">
         <div class="navbar-item">
-          <div class="buttons">
+          <!-- <div class="buttons">
             <a class="button is-primary">
               <strong>Sign up</strong>
             </a>
             <a class="button is-light"> Log in </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -36,7 +36,8 @@
       >InfraSyst Technology Solutions LLC</a
     ></small
   ><br />
-  <small>All rights reserved.</small>
+  <small>All rights reserved. version 1.0.0</small><br />
+  <small>POC application using VueJS, ExpressJS, GitHub Actions, RapidAPI and Azure Static Web Apps.</small>
   <p></p>
   <p>&nbsp;</p>
 </template>

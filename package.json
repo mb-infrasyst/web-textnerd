@@ -16,5 +16,10 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-pwa": "~5.0.0",
     "@vue/cli-service": "~5.0.0"
-  }
+  },
+  "description": "InfraSyst Technology Solutions 2023",
+  "main": "babel.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
