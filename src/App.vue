@@ -37,7 +37,7 @@
     ></small
   ><br />
   <small>All rights reserved. version 1.0.0</small><br />
-  <small>POC application using VueJS, ExpressJS, GitHub Actions, RapidAPI and Azure Static Web Apps.</small>
+  <small>POC application using VueJS, ExpressJS, GitHub Actions, RapidAPI, Heroku and Azure Static Web Apps.</small>
   <p></p>
   <p>&nbsp;</p>
 </template>
