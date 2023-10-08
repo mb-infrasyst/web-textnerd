@@ -36,7 +36,7 @@
             >InfraSyst Technology Solutions LLC</a
         ></small
     ><br />
-    <small>All rights reserved. version 1.0.1</small><br />
+    <small>All rights reserved. version 1.0.2</small><br />
     <small
         >POC application using VueJS, ExpressJS, GitHub Actions, RapidAPI,
         Heroku and Azure Static Web Apps.</small
