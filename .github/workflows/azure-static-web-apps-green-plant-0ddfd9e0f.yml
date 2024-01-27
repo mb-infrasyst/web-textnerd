@@ -21,10 +21,12 @@ jobs:
         with:
           submodules: true
 
-      - name: Install apt-utils
+      - name: Run GitGuardian Secret Scan
         run: |
-          sudo apt-get update
-          sudo apt-get install -y apt-utils
+          pip install ggshield
+          ggshield secret scan ci
+        env:
+          GITGUARDIAN_API_KEY: ${{secrets.GITGUARDIAN_API_KEY}}
 
       - name: Build And Deploy
         id: builddeploy
