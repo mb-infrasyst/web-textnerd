@@ -28,6 +28,12 @@ jobs:
         env:
           GITGUARDIAN_API_KEY: ${{secrets.GITGUARDIAN_API_KEY}}
 
+      - name: FOSSA License Compliance Check
+        uses: fossas/fossa-action@v1.3.1
+        with:
+          api-key: ${{secrets.FOSSA_API_KEY}}
+
+
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
