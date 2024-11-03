@@ -12,7 +12,7 @@
         <!-- prettier-ignore -->
         <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item" href="https://textnerd.infrasystttech.com"> textnerd </a>
+        <a class="navbar-item" href="https://textnerd.infrasysttech.com"> textnerd </a>
         <a class="navbar-item" href="https://rapidapi.com/melbatista76/api/textnerd-io" target="_blank"> API </a>
       </div>
 
