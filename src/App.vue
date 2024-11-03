@@ -2,7 +2,7 @@
 <template>
     <nav class="navbar is-link" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="https://www.textnerd.io">
+            <a class="navbar-item" href="https://textnerd.infrasysttech.com">
                 <img
                     src="../public/img/textnerd-images/textnerd-logo-512x512-v1.png"
                     alt="Convert text case."
@@ -12,7 +12,7 @@
         <!-- prettier-ignore -->
         <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item" href="https://www.textnerd.io"> textnerd.io </a>
+        <a class="navbar-item" href="https://www.textnerd.io"> textnerd </a>
         <a class="navbar-item" href="https://rapidapi.com/melbatista76/api/textnerd-io" target="_blank"> API </a>
       </div>
 
